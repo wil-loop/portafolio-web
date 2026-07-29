@@ -1,0 +1,17 @@
+.projects{
+  width: 80%;
+  max-width: 1000px;
+  background-color: #27516E;
+  margin-top: 15px;
+  border-radius: 16px;
+  padding: 32px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-list{
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  justify-content: center;
+}

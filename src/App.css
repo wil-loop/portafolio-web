@@ -1,23 +1,33 @@
 .page {
-  min-height: 100vh;
-  background-color: #111827;
-  color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
+  flex-direction: column;
 
-.card {
-  width: 500px;
-  padding: 32px;
-  border-radius: 16px;
-  background-color: #1f2937;
-  text-align: center;
+  min-height: 100vh;
+  color: #020617;
+  padding-top: 70px;
+
+
+  font-weight: 700;
+  background:
+  radial-gradient(circle at top left, #020617 0%, transparent 35%),
+  radial-gradient(circle at top right, #020617 0%, transparent 35%),
+  linear-gradient(135deg, #111827 0%, #4822f2 100%);
 }
 
 button {
+  margin-top: 12px;
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  background-color: #1f2937;
+}
+
+.underline {
+  width: 70px;
+  height: 3px;
+  background-color: #000000;
+  border-radius: 999px;
+  margin: 8px auto 32px;
 }

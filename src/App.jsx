@@ -1,15 +1,19 @@
-import './App.css'
+import "./App.css";
+
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <main className="page">
-      <section className="card">
-        <h1>Hola, soy William</h1>
-        <p>Estoy aprendiendo desarrollo web con React.</p>
-        <button>Ver proyectos</button>
-      </section>
+    <main className="page" id="home">
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

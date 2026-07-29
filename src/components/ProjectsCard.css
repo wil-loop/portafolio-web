@@ -1,0 +1,23 @@
+.project-card{
+  display: flex;
+  flex-direction: column;
+
+  width: 260px;
+  min-height: 195px;
+  padding: 24px;
+  background-color: #5BC2BB;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.project-card h3{
+  margin-bottom: 12px;
+}
+
+.project-card p{
+  line-height: 1.5;
+}
+
+.project-card button{
+  margin-top: auto;
+}
